@@ -1,0 +1,71 @@
+.container{
+	background-image: url("../images/blackstatic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat center center fixed;
+}
+
+#gameName{
+	color: white !important;
+	font-weight: bold;
+	font-family: 'Press Start 2P', cursive;
+}
+
+body,
+h4{
+	color: white !important;
+	text-align: left;
+	background-image: url("../images/blackstatic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat center center fixed;
+	font-family: 'Press Start 2P', cursive;
+	margin-top: 20px;
+}
+
+.instructions{
+  background-image: url("../images/blackstatic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  margin-bottom: 50px;
+  font: 40px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.click{
+  widows: 100px;
+  height: 100px;
+}
+
+.row1{
+  background-image: url("../images/blackstatic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+}
+
+.row4 {
+  background-image: url("../images/blackstatic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  color: white;
+}
+
+.score {
+  background-image: url("../images/blackstatic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.random,
+.results,
+.finalScore,
+h3 {
+  background-image: url("../images/blackstatic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
