@@ -1,14 +1,14 @@
-// declaring variables 
+// Declaring variables
 var wins = 0;
 var losses = 0;
 
-// beginning score for user
+// Starting score for user is 0
 var score = 0;
 
-// generating a random number to start the game
+// Random number to start game
 var random = Math.floor((Math.random()* 100)+ 19);
 
-//generating random numbers for the crystals
+// Random numbers for each crystal
 var crystal1 = Math.floor((Math.random() * 12) + 1);
 var crystal2 = Math.floor((Math.random() * 12) + 1);
 var crystal3 = Math.floor((Math.random() * 12) + 1);
@@ -18,7 +18,7 @@ console.log("2 is " +crystal2);
 console.log("3 is " +crystal3);
 console.log("4 is " +crystal4);
 
-// updating score total, wins, and losses
+// Update score, wins, and losses
 var updatedScore = function() {
 	$('#wins').empty();
 	$('#wins').append(wins);
@@ -31,7 +31,7 @@ var updatedScore = function() {
 
 }
 
-// back to 0 after the game restarts
+// Game restarts at 0 
 var restartGame = function() {
 	score = 0;
 	random = Math.floor((Math.random()* 100)+ 19);
@@ -49,7 +49,7 @@ var restartGame = function() {
 
 }
 
-// game process 
+// Game process statements
 var gameProcess = function() {
 	if(score == random) {
 		wins = wins + 1;
@@ -67,12 +67,12 @@ var gameProcess = function() {
 
 }
 
-// updating results
+// Update results
 $('.random').append(random);
 $('.score').append(score);
 
 
-// adding numbers to final scores when crystals are clicked
+// Add numbers to score when crytals are clicked
 $(document).ready(function(){
 	$('#crystal1').click(function(){
  		score = score + crystal1;
